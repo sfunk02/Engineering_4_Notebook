@@ -22,7 +22,7 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 There was no wiring necessary for this assignment.
 
 ### Code
-[countdown.py](raspberry-pi/countdown.py).
+[countdown.py](raspberry-pi/countdown.py)
 
 ### Reflection
 

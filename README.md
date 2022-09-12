@@ -41,14 +41,14 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ![CountdownBlink.gif](images/countdownBlink.gif)
 
-![CountdownBlinkWiring.png](images/countdownBlinkWiring.png)
+![CountdownBlinkWiring.png](images/countdownBlinkWiring.jpg)
 
 ### Code
 [countdownBlink.py](raspberry-pi/countdownBlink.py)
 
 ### Reflection
 
-
+This assignment was pretty straightforward. The tricky part was that when I ran it, the green LED shut off by itself rather than staying on. I then figured out that I could add a while True loop after the for loop so that the green LED would stay on.
 
 &nbsp;
 

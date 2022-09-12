@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [Launch_Pad_Part_1](#Launch_Pad_Part_1)
+* [Launch_Pad_Part_2](#Launch_Pad_Part_2)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -27,6 +28,27 @@ There was no wiring necessary for this assignment.
 ### Reflection
 
 A while true loop did not work for this assignment, and I had to look up how to use a for loop with a range function. Also, the range didn't work going from 10 to 1 so I had to add a function that subtracts the value x from 10.
+
+&nbsp;
+
+## Launch_Pad_Part_2
+
+### Assignment Description
+
+The assignment for the Launch Pad series is to create a simulated launch pad. The second part is a script that counts down from 10 seconds to liftoff. It must blink a red LED each second and a green LED at liftoff.
+
+### Evidence 
+
+![CountdownBlink.gif](images/countdownBlink.gif)
+
+![CountdownBlinkWiring.png](images/countdownBlinkWiring.png)
+
+### Code
+[countdownBlink.py](raspberry-pi/countdownBlink.py)
+
+### Reflection
+
+
 
 &nbsp;
 

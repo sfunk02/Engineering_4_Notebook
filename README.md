@@ -39,9 +39,8 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ### Evidence 
 
-![CountdownBlink.gif](images/countdownBlink.gif)
-
 <img src="images/countdownBlinkWiring.jpg" alt="CountdownBlinkWiring.jpg" width="200" height="400">
+<img src="images/countdownBlink.gif" alt="CountdownBlink.gif" width="600" height="400">
 
 ### Code
 [countdownBlink.py](raspberry-pi/countdownBlink.py)

@@ -5,6 +5,7 @@
 ## Table of Contents
 * [Launch_Pad_Part_1](#Launch_Pad_Part_1)
 * [Launch_Pad_Part_2](#Launch_Pad_Part_2)
+* [Launch_Pad_Part_3](#Launch_Pad_Part_3)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -39,16 +40,33 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ### Evidence 
 
-![CountdownBlink.gif](images/countdownBlink.gif)
-
-![CountdownBlinkWiring.png](images/countdownBlinkWiring.png)
+<img src="images/countdownBlinkWiring.jpg" alt="CountdownBlinkWiring.jpg" width="200" height="400"><img src="images/countdownBlink.gif" alt="CountdownBlink.gif" width="600" height="400">
 
 ### Code
 [countdownBlink.py](raspberry-pi/countdownBlink.py)
 
 ### Reflection
 
+This assignment was pretty straightforward. The tricky part was that when I ran it, the green LED shut off by itself rather than staying on. I then figured out that I could add a while True loop after the for loop so that the green LED would stay on.
 
+&nbsp;
+
+## Launch_Pad_Part_3
+
+### Assignment Description
+
+The assignment for the Launch Pad series is to create a simulated launch pad. The third part is a script that counts down from 10 seconds to liftoff after pressing a button. It must blink a red LED each second and a green LED at liftoff.
+
+### Evidence 
+
+<img src="images/countdownButtonWiring.jpg" alt="CountdownButtonWiring.jpg" width="200" height="400"><img src="images/countdownButton.gif" alt="CountdownButton.gif" width="600" height="400">
+
+### Code
+[countdownButton.py](raspberry-pi/countdownButton.py)
+
+### Reflection
+
+To complete this assignment, I had to relearn how a button works. Also, I was unfamiliar with the digitalio Pull down command, which I had to use to identify a pin as a pulldown resistor. This allowed the board to see when it was getting a 3.3V signal without an external resistor and without catching on fire.
 
 &nbsp;
 

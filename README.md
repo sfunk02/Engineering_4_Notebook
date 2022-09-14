@@ -5,6 +5,7 @@
 ## Table of Contents
 * [Launch_Pad_Part_1](#Launch_Pad_Part_1)
 * [Launch_Pad_Part_2](#Launch_Pad_Part_2)
+* [Launch_Pad_Part_3](#Launch_Pad_Part_3)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 

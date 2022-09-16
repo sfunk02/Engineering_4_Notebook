@@ -12,20 +12,25 @@ G = digitalio.DigitalInOut(board.GP28)
 R.direction = digitalio.Direction.OUTPUT    #sets pin to output
 G.direction = digitalio.Direction.OUTPUT
 
-switchstate = False
+switchstate = False     #switchstates make it so a button doesn't spam commands
+switchstate2 = False
 
 while True:
     Abort = False
-    if button.value == True and switchstate == False:    #if button is pressed
+    if button.value == False and switchstate2 == True:
+        switchstate2 = False
+    elif button.value == True and switchstate == False and switchstate2 == False:    #if button is pressed
         switchstate = True
         for x in range(10):     #counts 10 numbers, so 0 to 9
             print (10 - x)    #reverses the order so it starts at 10
-            if button.value == False and switchstate == True:
+            if button.value == False and switchstate == True:       #switchstate switches once the button is released
                 switchstate = False
-            elif button.value == True and switchstate == False:
+            elif button.value == True and switchstate == False:     #Abort only happens if the button is pressed again
                     print("Abort")
                     Abort = True
-                    break
+                    switchstate2 = True
+                    R.value = False
+                    break       #breaks out of the for loop
             R.value = True      #turns red LED on
             time.sleep(.1)
             if button.value == False and switchstate == True:
@@ -33,6 +38,8 @@ while True:
             elif button.value == True and switchstate == False:
                     print("Abort")
                     Abort = True
+                    switchstate2 = True
+                    R.value = False
                     break
             R.value = False     #turns red LED off
             time.sleep(.9)
@@ -41,8 +48,10 @@ while True:
             elif button.value == True and switchstate == False:
                     print("Abort")
                     Abort = True
+                    switchstate2 = True
+                    R.value = False
                     break
-        if Abort == False:
+        if Abort == False:      #Liftoff only prints if Abort has not been activated
             print("Liftoff")
             while True:
                 G.value = True      #turns on green LED forever

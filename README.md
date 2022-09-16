@@ -70,6 +70,25 @@ To complete this assignment, I had to relearn how a button works. Also, I was un
 
 &nbsp;
 
+## Launch_Pad_Part_4
+
+### Assignment Description
+
+The assignment for the Launch Pad series is to create a simulated launch pad. The fourth part is a script that counts down from 10 seconds to liftoff after pressing a button. It must blink a red LED each second and turn on a green LED and a servo at liftoff.
+
+### Evidence 
+
+<img src="images/countdownServo.jpg" alt="CountdownServoWiring.jpg" width="200" height="400"><img src="images/countdownServo.gif" alt="CountdownServo.gif" width="600" height="400">
+
+### Code
+[countdownServo.py](raspberry-pi/countdownServo.py)
+
+### Reflection
+
+
+
+&nbsp;
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description

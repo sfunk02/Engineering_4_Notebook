@@ -79,7 +79,7 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ### Evidence 
 
-<img src="images/countdownServo.jpg" alt="CountdownServoWiring.jpg" width="200" height="400"><img src="images/countdownServo.gif" alt="CountdownServo.gif" width="600" height="400">
+<img src="images/countdownServoWiring.jpg" alt="CountdownServoWiring.jpg" width="200" height="400"><img src="images/countdownServo.gif" alt="CountdownServo.gif" width="600" height="400">
 
 ### Code
 [countdownServo.py](raspberry-pi/countdownServo.py)

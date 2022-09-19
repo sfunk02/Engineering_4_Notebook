@@ -86,7 +86,7 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ### Reflection
 
-
+This assignment was very straightforward. The code is exactly the same as Part 3, except I added in a servo object and a command at the very end. I also had to add the servo library from Adafruit.
 
 &nbsp;
 

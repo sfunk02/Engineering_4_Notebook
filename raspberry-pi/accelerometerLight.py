@@ -19,5 +19,5 @@ while True:
         R.value = True                                              #led turns on
     elif mpu.acceleration[1] > 9.5 or mpu.acceleration[1] < -9.5:     #if board is tilted in y direction
         R.value = True
-    else
+    else:
         R.value = False

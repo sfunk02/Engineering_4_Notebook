@@ -115,7 +115,7 @@ This was the first time I have used I2C. It doesn't seem very confusing, but it 
 
 ### Assignment Description
 
-For part 2 of Crash Avoidance, I had to use the accelerometer to determine if the board was tilted at 90 degrees by sensing acceleration due to gravity. When the board tilts 90 degrees, an LED must turn on.
+For part 2 of Crash Avoidance, I had to use the accelerometer to determine if the board was tilted at 90 degrees by sensing acceleration due to gravity. When the board tilts 90 degrees, an LED must turn on. Also, I had to connect the Pico to a portable battery.
 
 ### Evidence 
 

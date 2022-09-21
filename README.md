@@ -7,6 +7,7 @@
 * [Launch_Pad_Part_2](#Launch_Pad_Part_2)
 * [Launch_Pad_Part_3](#Launch_Pad_Part_3)
 * [Launch_Pad_Part_4](#Launch_Pad_Part_4)
+* [Crash_Avoidance_Part_1](#Crash_Avoidance_Part_1)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -79,14 +80,33 @@ The assignment for the Launch Pad series is to create a simulated launch pad. Th
 
 ### Evidence 
 
-<img src="images/countdownServo.jpg" alt="CountdownServoWiring.jpg" width="200" height="400"><img src="images/countdownServo.gif" alt="CountdownServo.gif" width="600" height="400">
+<img src="images/countdownServoWiring.jpg" alt="CountdownServoWiring.jpg" width="200" height="400"><img src="images/countdownServo.gif" alt="CountdownServo.gif" width="600" height="400" style="transform:rotate(270deg);">
 
 ### Code
 [countdownServo.py](raspberry-pi/countdownServo.py)
 
 ### Reflection
 
+This assignment was very straightforward. The code is exactly the same as Part 3, except I added in a servo object and a command at the very end. I also had to add the servo library from Adafruit.
 
+&nbsp;
+
+## Crash_Avoidance_Part_1
+
+### Assignment Description
+
+The premise for the Crash Avoidance series is to engineer a crash avoidance system for a scout helicopter on Mars. For part 1, I had to wire and code an MPU-6050 accelerometer and gyro using I2C. The Pico has to print the acceleration values in each direction every second.
+
+### Evidence 
+
+<img src="images/accelerometerWiring.jpg" alt="AccelerometerWiring.jpg" width="200" height="400"><img src="images/accelerometer.gif" alt="Accelerometer.gif" width="600" height="400">
+
+### Code
+[acceleromter.py](raspberry-pi/accelerometer.py)
+
+### Reflection
+
+This was the first time I have used I2C. It doesn't seem very confusing, but it did take a few minutes to learn how it works. Also, I had to learn how to print using f-strings so I could print strings with embedded variables.
 
 &nbsp;
 

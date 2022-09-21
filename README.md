@@ -95,7 +95,7 @@ This assignment was very straightforward. The code is exactly the same as Part 3
 
 ### Assignment Description
 
-The assignment for the 
+The premise for the Crash Avoidance series is to engineer a crash avoidance system for a scout helicopter on Mars. For part 1, I had to wire and code an MPU-6050 accelerometer and gyro using I2C. The Pico has to print the acceleration values in each direction every second.
 
 ### Evidence 
 
@@ -106,7 +106,7 @@ The assignment for the
 
 ### Reflection
 
-reflecty things
+This was the first time I have used I2C. It doesn't seem very confusing, but it did take a few minutes to learn how it works. Also, I had to learn how to print using f-strings so I could print strings with embedded variables.
 
 &nbsp;
 

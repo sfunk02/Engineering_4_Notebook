@@ -9,6 +9,7 @@
 * [Launch_Pad_Part_4](#Launch_Pad_Part_4)
 * [Crash_Avoidance_Part_1](#Crash_Avoidance_Part_1)
 * [Crash_Avoidance_Part_2](#Crash_Avoidance_Part_2)
+* [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -127,6 +128,25 @@ For part 2 of Crash Avoidance, I had to use the accelerometer to determine if th
 ### Reflection
 
 This assignment was pretty straightforward because I learned how to use the accelerometer in the last assignment. I just had to create a couple if statements based on acceleration rather than printing it. The annoying part is that the accelerometer doesn't detect gravity as exactly 9.8 m/s^2, so the LED doesn't always stay on.
+
+&nbsp;
+
+## Crash_Avoidance_Part_3
+
+### Assignment Description
+
+For part 3 of Crash Avoidance, 
+
+### Evidence 
+
+<img src="images/accelerometerOledWiring.jpg" alt="AccelerometerOledWiring.jpg" width="200" height="400"><img src="images/accelerometerOled.gif" alt="AccelerometerOled.gif" width="600" height="400">
+
+### Code
+[accelerometerOled.py](raspberry-pi/accelerometerOled.py)
+
+### Reflection
+
+oled reflections
 
 &nbsp;
 

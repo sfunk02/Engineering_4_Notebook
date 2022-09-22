@@ -8,6 +8,8 @@
 * [Launch_Pad_Part_3](#Launch_Pad_Part_3)
 * [Launch_Pad_Part_4](#Launch_Pad_Part_4)
 * [Crash_Avoidance_Part_1](#Crash_Avoidance_Part_1)
+* [Crash_Avoidance_Part_2](#Crash_Avoidance_Part_2)
+* [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -102,11 +104,49 @@ The premise for the Crash Avoidance series is to engineer a crash avoidance syst
 <img src="images/accelerometerWiring.jpg" alt="AccelerometerWiring.jpg" width="200" height="400"><img src="images/accelerometer.gif" alt="Accelerometer.gif" width="600" height="400">
 
 ### Code
-[acceleromter.py](raspberry-pi/accelerometer.py)
+[accelerometer.py](raspberry-pi/accelerometer.py)
 
 ### Reflection
 
 This was the first time I have used I2C. It doesn't seem very confusing, but it did take a few minutes to learn how it works. Also, I had to learn how to print using f-strings so I could print strings with embedded variables.
+
+&nbsp;
+
+## Crash_Avoidance_Part_2
+
+### Assignment Description
+
+For part 2 of Crash Avoidance, I had to use the accelerometer to determine if the board was tilted at 90 degrees by sensing acceleration due to gravity. When the board tilts 90 degrees, an LED must turn on. Also, I had to connect the Pico to a portable battery.
+
+### Evidence 
+
+<img src="images/accelerometerLightWiring.jpg" alt="AccelerometerLightWiring.jpg" width="200" height="400"><img src="images/accelerometerLight.gif" alt="AccelerometerLight.gif" width="600" height="400">
+
+### Code
+[accelerometerLight.py](raspberry-pi/accelerometerLight.py)
+
+### Reflection
+
+This assignment was pretty straightforward because I learned how to use the accelerometer in the last assignment. I just had to create a couple if statements based on acceleration rather than printing it. The annoying part is that the accelerometer doesn't detect gravity as exactly 9.8 m/s^2, so the LED doesn't always stay on.
+
+&nbsp;
+
+## Crash_Avoidance_Part_3
+
+### Assignment Description
+
+For part 3 of Crash Avoidance, 
+
+### Evidence 
+
+<img src="images/accelerometerOledWiring.jpg" alt="AccelerometerOledWiring.jpg" width="200" height="400"><img src="images/accelerometerOled.gif" alt="AccelerometerOled.gif" width="600" height="400">
+
+### Code
+[accelerometerOled.py](raspberry-pi/accelerometerOled.py)
+
+### Reflection
+
+oled reflections
 
 &nbsp;
 

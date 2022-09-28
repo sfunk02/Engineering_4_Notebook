@@ -135,7 +135,7 @@ This assignment was pretty straightforward because I learned how to use the acce
 
 ### Assignment Description
 
-For part 3 of Crash Avoidance, 
+For part 3 of Crash Avoidance, I had to connect an OLED screen to my Rpi Pico to continuously display angular velocity values. The values had to be rounded to three decimal places.
 
 ### Evidence 
 
@@ -146,7 +146,7 @@ For part 3 of Crash Avoidance,
 
 ### Reflection
 
-oled reflections
+This was the most complex assignment so far. I had to wire in the OLED screen to the same i2c bus as the MPU accelerometer, meaning I first had to run code to find the i2c addresses for both devices. I had to add a few new libraries for the OLED screen, and learn how to use new commands to display anything on it. Once I figured out how to display values on the screen, I had to round them, which was pretty easy.
 
 &nbsp;
 

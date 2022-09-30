@@ -10,6 +10,7 @@
 * [Crash_Avoidance_Part_1](#Crash_Avoidance_Part_1)
 * [Crash_Avoidance_Part_2](#Crash_Avoidance_Part_2)
 * [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
+* [Landing_Area_Part_1](#Landing_Area_Part_1)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -135,7 +136,7 @@ This assignment was pretty straightforward because I learned how to use the acce
 
 ### Assignment Description
 
-For part 3 of Crash Avoidance, 
+For part 3 of Crash Avoidance, I had to connect an OLED screen to my Rpi Pico to continuously display angular velocity values. The values had to be rounded to three decimal places.
 
 ### Evidence 
 
@@ -146,7 +147,26 @@ For part 3 of Crash Avoidance,
 
 ### Reflection
 
-oled reflections
+This was the most complex assignment so far. I had to wire in the OLED screen to the same i2c bus as the MPU accelerometer, meaning I first had to run code to find the i2c addresses for both devices. I had to add a few new libraries for the OLED screen, and learn how to use new commands to display anything on it. Once I figured out how to display values on the screen, I had to round them, which was pretty easy.
+
+&nbsp;
+
+## Landing_Area_Part_1
+
+### Assignment Description
+
+For part 1 of Landing Area,
+
+### Evidence 
+
+<img src="images/landingArea1.gif" alt="landingArea1.gif" width="600" height="400">
+
+### Code
+[landingArea1.py](raspberry-pi/landingArea1.py)
+
+### Reflection
+
+reflection text
 
 &nbsp;
 

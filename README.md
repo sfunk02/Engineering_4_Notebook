@@ -11,6 +11,7 @@
 * [Crash_Avoidance_Part_2](#Crash_Avoidance_Part_2)
 * [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
 * [Landing_Area_Part_1](#Landing_Area_Part_1)
+* [Landing_Area_Part_2](#Landing_Area_Part_2)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -155,18 +156,39 @@ This was the most complex assignment so far. I had to wire in the OLED screen to
 
 ### Assignment Description
 
-For part 1 of Landing Area,
+For part 1 of Landing Area, I had to create a script for the Rpi Pico that takes a user input for three vertices and outputs the area of the triangle they form. It must also restart the script if one point is entered incorrectly.
 
 ### Evidence 
 
 <img src="images/landingArea1.gif" alt="landingArea1.gif" width="600" height="400">
+
+Wiring wasn't necessary for this assignment.
 
 ### Code
 [landingArea1.py](raspberry-pi/landingArea1.py)
 
 ### Reflection
 
-reflection text
+This assignmet wasn't too difficult after I learned how to call on part of a split input using brackets. I had to look up the formula for area of a triangle using three vertices to put in my area function. After I wrote the code for the inputs, splits, and conversion to floats, I just put it inside of a while True loop with a try/except. If there is an error due to an incorrect input, the code will reset itself.
+
+&nbsp;
+
+## Landing_Area_Part_2
+
+### Assignment Description
+
+For part 2 of Landing Area,
+
+### Evidence 
+
+<img src="images/landingArea2Wiring.jpg" alt="LandingArea2Wiring.jpg" width="200" height="400"><img src="images/landingArea2.gif" alt="LandingArea2.gif" width="600" height="400">
+
+### Code
+[landingArea2.py](raspberry-pi/landingArea2.py)
+
+### Reflection
+
+reflections
 
 &nbsp;
 

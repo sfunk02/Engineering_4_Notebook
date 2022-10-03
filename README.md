@@ -172,6 +172,25 @@ This assignmet wasn't too difficult after I learned how to call on part of a spl
 
 &nbsp;
 
+## Landing_Area_Part_2
+
+### Assignment Description
+
+For part 2 of Landing Area,
+
+### Evidence 
+
+<img src="images/landingArea2Wiring.jpg" alt="LandingArea2Wiring.jpg" width="200" height="400"><img src="images/landingArea2.gif" alt="LandingArea2.gif" width="600" height="400">
+
+### Code
+[landingArea2.py](raspberry-pi/landingArea2.py)
+
+### Reflection
+
+reflections
+
+&nbsp;
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description

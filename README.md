@@ -155,18 +155,20 @@ This was the most complex assignment so far. I had to wire in the OLED screen to
 
 ### Assignment Description
 
-For part 1 of Landing Area,
+For part 1 of Landing Area, I had to create a script for the Rpi Pico that takes a user input for three vertices and outputs the area of the triangle they form. It must also restart the script if one point is entered incorrectly.
 
 ### Evidence 
 
 <img src="images/landingArea1.gif" alt="landingArea1.gif" width="600" height="400">
+
+Wiring wasn't necessary for this assignment.
 
 ### Code
 [landingArea1.py](raspberry-pi/landingArea1.py)
 
 ### Reflection
 
-reflection text
+This assignmet wasn't too difficult after I learned how to call on part of a split input using brackets. I had to look up the formula for area of a triangle using three vertices to put in my area function. After I wrote the code for the inputs, splits, and conversion to floats, I just put it inside of a while True loop with a try/except. If there is an error due to an incorrect input, the code will reset itself.
 
 &nbsp;
 

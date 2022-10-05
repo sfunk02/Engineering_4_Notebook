@@ -177,7 +177,7 @@ This assignmet wasn't too difficult after I learned how to call on part of a spl
 
 ### Assignment Description
 
-For part 2 of Landing Area,
+For part 2 of Landing Area, I had to write a script that includes Part 1, but also draws the triangle over coordinate axes on an OLED screen.
 
 ### Evidence 
 
@@ -188,7 +188,7 @@ For part 2 of Landing Area,
 
 ### Reflection
 
-reflections
+This assignment wasn't that difficult, as I already had my OLED screen wired and I already learned how to code it in Crash Avoidance 3. I had an issue with the triangle coordinates at first, which was impossible to trace until I commented out the try/except loop. Since the origin on the OLED screen is in the top left, I couldn't just use the x,y coordinates as they were input. I had to add 64 to each x value and subtract each y value from 32 to end up with the triangle drawn in the right place.
 
 &nbsp;
 

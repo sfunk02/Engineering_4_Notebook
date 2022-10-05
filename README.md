@@ -12,6 +12,7 @@
 * [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
 * [Landing_Area_Part_1](#Landing_Area_Part_1)
 * [Landing_Area_Part_2](#Landing_Area_Part_2)
+* [Morse_Code_Part_1](#Morse_Code_Part_1)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -169,7 +170,7 @@ Wiring wasn't necessary for this assignment.
 
 ### Reflection
 
-This assignmet wasn't too difficult after I learned how to call on part of a split input using brackets. I had to look up the formula for area of a triangle using three vertices to put in my area function. After I wrote the code for the inputs, splits, and conversion to floats, I just put it inside of a while True loop with a try/except. If there is an error due to an incorrect input, the code will reset itself.
+This assignment wasn't too difficult after I learned how to call on part of a split input using brackets. I had to look up the formula for area of a triangle using three vertices to put in my area function. After I wrote the code for the inputs, splits, and conversion to floats, I just put it inside of a while True loop with a try/except. If there is an error due to an incorrect input, the code will reset itself.
 
 &nbsp;
 
@@ -188,7 +189,28 @@ For part 2 of Landing Area, I had to write a script that includes Part 1, but al
 
 ### Reflection
 
-This assignment wasn't that difficult, as I already had my OLED screen wired and I already learned how to code it in Crash Avoidance 3. I had an issue with the triangle coordinates at first, which was impossible to trace until I commented out the try/except loop. Since the origin on the OLED screen is in the top left, I couldn't just use the x,y coordinates as they were input. I had to add 64 to each x value and subtract each y value from 32 to end up with the triangle drawn in the right place.
+This assignment wasn't that confusing, as I already had my OLED screen wired and I already learned how to code it in Crash Avoidance 3. I had an issue with the triangle coordinates at first, which was impossible to trace until I commented out the try/except loop. Since the origin on the OLED screen is in the top left, I couldn't just use the x,y coordinates as they were input. I had to add 64 to each x value and subtract each y value from 32 to end up with the triangle drawn in the right place.
+
+&nbsp;
+
+## Morse_Code_Part_1
+
+### Assignment Description
+
+For part 1 of Morse Code, I had to use a write a script that takes a user input and translates it into morse code. If the user enters "-q", then the script ends.
+
+### Evidence 
+
+<img src="images/morseCode1.gif" alt="morseCode1.gif" width="600" height="400">
+
+Wiring wasn't necessary for this assignment.
+
+### Code
+[morseCode1.py](raspberry-pi/morseCode1.py)
+
+### Reflection
+
+This assignment required me to learn how to use python dictionaries. This allows to define certain things in one long list, which is how I defined each letter in morse code. I had to add an empty string in my code and then create a for loop that adds each letter along with a space to the string. After the for loop is finished, the completed string prints. 
 
 &nbsp;
 

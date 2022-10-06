@@ -223,7 +223,7 @@ For part 2 of Morse Code,
 
 ### Evidence 
 
-<img src="images/morseCode2Wiring.jpg" alt="morseCode2Wiring.jpg" width="200" height="400"><img src="images/morseCode2.gif" alt="MorseCode2.gif" width="600" height="400">
+<img src="images/morseCodeWiring2.jpg" alt="morseCode2Wiring.jpg" width="200" height="400"><img src="images/morseCode2.gif" alt="MorseCode2.gif" width="600" height="400">
 
 ### Code
 [morseCode2.py](raspberry-pi/morseCode2.py)

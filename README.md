@@ -13,6 +13,7 @@
 * [Landing_Area_Part_1](#Landing_Area_Part_1)
 * [Landing_Area_Part_2](#Landing_Area_Part_2)
 * [Morse_Code_Part_1](#Morse_Code_Part_1)
+* [Morse_Code_Part_2](#Morse_Code_Part_2)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -211,6 +212,25 @@ Wiring wasn't necessary for this assignment.
 ### Reflection
 
 This assignment required me to learn how to use python dictionaries. This allows to define certain things in one long list, which is how I defined each letter in morse code. I had to add an empty string in my code and then create a for loop that adds each letter along with a space to the string. After the for loop is finished, the completed string prints. 
+
+&nbsp;
+
+## Morse_Code_Part_2
+
+### Assignment Description
+
+For part 2 of Morse Code,
+
+### Evidence 
+
+<img src="images/morseCodeWiring2.jpg" alt="morseCode2Wiring.jpg" width="200" height="400"><img src="images/morseCode2.gif" alt="MorseCode2.gif" width="600" height="400">
+
+### Code
+[morseCode2.py](raspberry-pi/morseCode2.py)
+
+### Reflection
+
+...
 
 &nbsp;
 

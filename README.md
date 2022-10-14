@@ -12,6 +12,7 @@
 * [Crash_Avoidance_Part_3](#Crash_Avoidance_Part_3)
 * [Landing_Area_Part_1](#Landing_Area_Part_1)
 * [Landing_Area_Part_2](#Landing_Area_Part_2)
+* [Landing_Area_Part_3](#Landing_Area_Part_3)
 * [Morse_Code_Part_1](#Morse_Code_Part_1)
 * [Morse_Code_Part_2](#Morse_Code_Part_2)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
@@ -191,6 +192,25 @@ For part 2 of Landing Area, I had to write a script that includes Part 1, but al
 ### Reflection
 
 This assignment wasn't that confusing, as I already had my OLED screen wired and I already learned how to code it in Crash Avoidance 3. I had an issue with the triangle coordinates at first, which was impossible to trace until I commented out the try/except loop. Since the origin on the OLED screen is in the top left, I couldn't just use the x,y coordinates as they were input. I had to add 64 to each x value and subtract each y value from 32 to end up with the triangle drawn in the right place.
+
+&nbsp;
+
+## Landing_Area_Part_3
+
+### Assignment Description
+
+For part 3 of Landing Area, I had to write a script that includes hard-coded points for four triangles. The code runs through the points, displaying each triangle on the OLED screen, and determines which triangle with an area over 100 km^2 is closest to the origin.
+
+### Evidence 
+
+<img src="images/landingArea2Wiring.jpg" alt="LandingArea3Wiring.jpg" width="200" height="400"><img src="images/landingArea3.gif" alt="LandingArea3.gif" width="600" height="400">
+
+### Code
+[landingArea3.py](raspberry-pi/landingArea3.py)
+
+### Reflection
+
+This assignment was much more confusing than the last one. Originally, I wrote way too much code and had different variables for each point in every triangle. After realizing this was perhaps not the best way to do it, I scrapped most of that and made a loop that contains points[i] and cycles through by adding 1 to i each time.
 
 &nbsp;
 

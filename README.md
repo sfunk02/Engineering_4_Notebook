@@ -15,6 +15,7 @@
 * [Landing_Area_Part_3](#Landing_Area_Part_3)
 * [Morse_Code_Part_1](#Morse_Code_Part_1)
 * [Morse_Code_Part_2](#Morse_Code_Part_2)
+* [Ring_And_Spinner](#Ring_And_Spinner)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -239,7 +240,7 @@ This assignment required me to learn how to use python dictionaries. This allows
 
 ### Assignment Description
 
-For part 2 of Morse Code,
+For part 2 of Morse Code, I had to use the script from Part 1, but make it so that an LED flashes the message in morse code after it's translated.
 
 ### Evidence 
 
@@ -250,7 +251,27 @@ For part 2 of Morse Code,
 
 ### Reflection
 
-...
+This assignment was relatively straightforward. I just used a for loop and set a different time value for the LED to blink, depending on if the character was a dot, dash, or space. Each time value is a variable and they can all be altered at the same time with a multiplier variable if I want to speed up the blinks. 
+
+&nbsp;
+
+## Ring_And_Spinner
+
+### Assignment Description
+
+description
+
+### Part Link 
+
+[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+
+### Part Image
+
+Take a nice screenshot of your Onshape document. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 

@@ -268,7 +268,7 @@ This was the first part of a teamwork assignment in which we make a Pull Copter 
 
 ### Part Image
 
-<img src="images/ring.png" alt="ring.png" width="250" height="400">
+<img src="images/ring.png" alt="ring.png" width="300" height="400">
 
 ### Reflection
 

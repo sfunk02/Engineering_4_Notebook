@@ -260,19 +260,19 @@ This assignment was relatively straightforward. I just used a for loop and set a
 
 ### Assignment Description
 
-description
+This was the first part of a teamwork assignment in which we make a Pull Copter toy in Onshape. My assignment, as Student A, was to make the Ring.
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Onshape document](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/250971eae56639bdc273a694?renderMode=0&uiState=634ffce1e80b6a3a58006d30).
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+<img src="images/ring.png" alt="ring.png" width="250" height="400">
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was very straightforward. I pulled some geometry from an existing part to sketch the base for the ring. I also created a variable to use later to account for the inaccuracy in a 3D printer nozzle, which is usually about 0.4mm.
 
 &nbsp;
 

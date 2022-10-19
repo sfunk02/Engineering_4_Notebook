@@ -264,7 +264,7 @@ This was the first part of a teamwork assignment in which we make a Pull Copter 
 
 ### Part Link 
 
-[Onshape document](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/250971eae56639bdc273a694?renderMode=0&uiState=634ffce1e80b6a3a58006d30).
+[Onshape document](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/250971eae56639bdc273a694?renderMode=0&uiState=634ffce1e80b6a3a58006d30)
 
 ### Part Image
 

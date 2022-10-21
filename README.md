@@ -17,6 +17,7 @@
 * [Morse_Code_Part_2](#Morse_Code_Part_2)
 * [Ring_And_Spinner](#Ring_And_Spinner)
 * [Key_And_Prop](#Key_And_Prop)
+* [Pull_Copter](Pull_Copter)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -293,6 +294,26 @@ For this part, as Student A, I had to make the key for the Pull Copter.
 ### Reflection
 
 This assignment was also straightforward. I used geometry from the Top to sketch and extrude the long part of the key. From there, I added on the circular handle at the end and cut a notch in the long part. I used a linear pattern to make the rest of the notches.
+
+&nbsp;
+
+## Pull_Copter
+
+### Assignment Description
+
+For this part, we had to assemble the Pull Copter. The key used a slider mate, the spinner used a cylindrical mate, and we had to add a rack and pinion relation between the two.
+
+### Part Link 
+
+[Onshape document](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/250971eae56639bdc273a694?renderMode=0&uiState=634ffce1e80b6a3a58006d30)
+
+### Part Image
+
+<img src="images/pullCopter.png" alt="pullCopter.png" width="300" height="400">
+
+### Reflection
+
+This assignment was pretty straightforward. The assembly wasn't very complex, but we did have to use three different kinds of mates. We got lucky with the rack and pinion relation, which was already lined up and didn't need any adjusting.
 
 &nbsp;
 

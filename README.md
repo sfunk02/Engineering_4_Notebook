@@ -18,6 +18,7 @@
 * [Ring_And_Spinner](#Ring_And_Spinner)
 * [Key_And_Prop](#Key_And_Prop)
 * [Pull_Copter](#Pull_Copter)
+* [FEA_Part_1](#FEA_Part_1)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -314,6 +315,26 @@ For this part, we had to assemble the Pull Copter. The key used a slider mate, t
 ### Reflection
 
 This assignment was pretty straightforward. The assembly wasn't very complex, but we did have to use three different kinds of mates. We got lucky with the rack and pinion relation, which was already lined up and didn't need any adjusting.
+
+&nbsp;
+
+## FEA_Part_1
+
+### Assignment Description
+
+...
+
+### Part Link 
+
+[Onshape document](https://cvilleschools.onshape.com/documents/d1f3a9e9215f9317fa185fb8/w/0a8716364b546bc727f41c6e/e/d0a2d7a2935745fb9d8c59f6?renderMode=0&uiState=63627b130828906be38b04e0)
+
+### Part Image
+
+<img src="images/beam.png" alt="beam.png" width="300" height="400">
+
+### Reflection
+
+...
 
 &nbsp;
 

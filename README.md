@@ -330,7 +330,7 @@ This assignment was pretty straightforward. The assembly wasn't very complex, bu
 
 ### Part Image
 
-<img src="images/beam.png" alt="beam.png" width="300" height="400">
+<img src="images/beam.png" alt="beam.png" width="400" height="300">
 
 ### Reflection
 

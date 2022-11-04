@@ -19,6 +19,8 @@
 * [Key_And_Prop](#Key_And_Prop)
 * [Pull_Copter](#Pull_Copter)
 * [FEA_Part_1](#FEA_Part_1)
+* [FEA_Part_2](#FEA_Part_2)
+* [FEA_Part_3](#FEA_Part_3)
 * [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -322,7 +324,7 @@ This assignment was pretty straightforward. The assembly wasn't very complex, bu
 
 ### Assignment Description
 
-...
+For this assignment, we had to design a beam to be 3D printed within certain criteria with the goal of holding the most weight before bending past 35mm or breaking.
 
 ### Part Link 
 
@@ -334,7 +336,47 @@ This assignment was pretty straightforward. The assembly wasn't very complex, bu
 
 ### Reflection
 
-...
+We went with a triangular beam, as the overhang in a H/I beam was not allowed for the competition. The beam is larger at the end which attaches to the table, while the end holding the weight is smaller. This is because the attached end is under much more stress, and must be able to hold more weight.
+
+&nbsp;
+
+## FEA_Part_2
+
+### Assignment Description
+
+For Part 2, we used Simscale to run a simulation of the beam while holding weight. It showed an estimated deflection for the beam and showed which points were under the most stress.
+
+### Part Link 
+
+[Onshape document](https://cvilleschools.onshape.com/documents/d1f3a9e9215f9317fa185fb8/w/0a8716364b546bc727f41c6e/e/d0a2d7a2935745fb9d8c59f6?renderMode=0&uiState=63627b130828906be38b04e0)
+
+### Part Image
+
+<img src="images/beamStress.png" alt="beamStress.png" width="400" height="300"><img src="images/beamDisplacement.png" alt="beamDisplacement.png" width="400" height="300">
+
+### Reflection
+
+This software was very helpful, because it showed which points on the beam needed to be improved. The point under the most stress was the top of the triangle at the fixed end, which I didn't expect. I thought that the weakest point would have been the thin tab at the end that attaches to the weight.
+
+&nbsp;
+
+## FEA_Part_3
+
+### Assignment Description
+
+For Part 3, we used the data from Part 2 to edit the design of the beam.
+
+### Part Link 
+
+[Onshape document](https://cvilleschools.onshape.com/documents/d1f3a9e9215f9317fa185fb8/w/0a8716364b546bc727f41c6e/e/d0a2d7a2935745fb9d8c59f6?renderMode=0&uiState=63627b130828906be38b04e0)
+
+### Part Image
+
+<img src="images/beam2.png" alt="beam2.png" width="400" height="300">
+
+### Reflection
+
+To counter the stress at the top of the triangle at the fixed end, we added more material. There is now a sort of mass of material at that end, which will hopefully prevent the beam from breaking at that point. To keep the design under the weight limit, we had to decrease the thickness by a small amount.
 
 &nbsp;
 

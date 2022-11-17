@@ -393,7 +393,7 @@ To counter the stress at the top of the triangle at the fixed end, we added more
 
 ### Evidence
 
-video
+<img src="images/propellorCutPlane.jpg" alt="propellorCutPlane.jpg" width="200" height="400"><img src="images/propellerTrace.gif" alt="propellorTrace.gif" width="600" height="400">
 
 ### Reflection
 

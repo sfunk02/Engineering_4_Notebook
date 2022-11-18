@@ -385,11 +385,11 @@ To counter the stress at the top of the triangle at the fixed end, we added more
 
 ### Assignment Description
 
-...
+For this assignment, I had to work through a Simscale tutorial to simulate the rotational airflow exhibited by a drone propellor.
 
 ### Part Link 
 
-[link](link)
+[Simscale Project](https://www.simscale.com/workbench/?pid=8868409654388103741&mi=spec%3Acf8a7050-e4ac-426d-b837-62f359a402ec%2Cservice%3ASIMULATION%2Cstrategy%3A34)
 
 ### Evidence
 
@@ -397,7 +397,7 @@ To counter the stress at the top of the triangle at the fixed end, we added more
 
 ### Reflection
 
-...
+This assignment was pretty straightforward because the tutorial told me exactly what to do. I found the results from the simulation to be very interesting, because they showed what makes a drone fly: the spinning propellors create a high pressure zone on the bottom and a low pressure zone on the top, generating lift. The fact that the air coming down from the propellor twists in a spiral indicates that a helicopter with one propellor on top would spin in a circle. I guess that's why they have a second, perpendicular propellor on the tail -- to counteract the spin.
 
 &nbsp;
 
